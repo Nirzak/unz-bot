@@ -287,11 +287,7 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 • **Language :** [Python 3.11.5](https://www.python.org/)
 • **Framework :** [Pyrogram 2.0.106](https://pyrogram.org/)
-• **Source code :** [EDM115/unzip-bot](https://github.com/EDM115/unzip-bot)
-• **Developer :** [EDM115](https://github.com/EDM115)
-
-**[Rate me ⭐](https://t.me/BotsArchive/2705)**
-Made with ❤️ by **@EDM115bots**
+• **Source code :** [EDM115/unzip-bot](https://github.com/Nirzak/unz-bot)
     """
 
     DONATE_TEXT = """
@@ -303,11 +299,7 @@ So if you can, donate :)
 It helps out a ton, covers the costs (hosting, updating, … 👨‍💻)
 
 --How ?--
-• **[Paypal](https://www.paypal.me/8EDM115)**
-• **[GitHub Sponsors](https://github.com/sponsors/EDM115)**
-• **[Directly in Telegram](https://t.me/EDM115bots/544)**
-• **[BuyMeACoffee](https://www.buymeacoffee.com/edm115)**
-• **[Send cryptos (not recommended)](https://edm115.shadd.eu.org/)**
+• **[BuyMeACoffee](https://www.buymeacoffee.com/nirzak)**
 
 Thanks for your contribution 😊
 
