@@ -157,7 +157,7 @@ extentions_list = {
         "zst",
         "zstd",
     ],
-    "audio": ["aif", "aiff", "aac", "flac", "mp3", "ogg", "wav", "wma","m4a"],
+    "audio": ["aif", "aiff", "aac", "flac", "m4a", "alac", "mp3", "ogg", "wav", "wma"],
     "photo": ["gif", "ico", "jpg", "jpeg", "png", "tiff", "webp"],
     "split": ["0*", "001", "002", "003", "004", "005", "006", "007", "008", "009"],
     "video": ["3gp", "avi", "flv", "mp4", "mkv", "mov", "mpeg", "mpg", "webm"],
