@@ -13,7 +13,7 @@ class Config:
     THUMB_LOCATION = f"{os.path.dirname(__file__)}/Thumbnails"
     TG_MAX_SIZE = 2097152000
     # Default chunk size (0.005 MB → 1024*6) Increase if you need faster downloads
-    CHUNK_SIZE = 1024 * 1024 * 1000  # 10 MB converting to 100MB
+    CHUNK_SIZE = 1024 * 1024 * 20  # 10 MB converting to 100MB
     BOT_THUMB = f"{os.path.dirname(__file__)}/bot_thumb.jpg"
     MAX_CONCURRENT_TASKS = 50
     MAX_TASK_DURATION_EXTRACT = 45 * 60  # 45 minutes (in seconds)
