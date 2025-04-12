@@ -12,10 +12,6 @@
 
 </div>
 
-## Working bot 🥰
-
-[@unzip_edm115bot](https://t.me/unzip_edm115bot)
-
 ## Features 👀
 
 - Extract all format of archives like `rar`, `zip`, `tar`, `7z`, `tar.xz`, …
@@ -72,7 +68,7 @@ Deploying is easy 🥰 You can deploy this bot in Heroku or in a VPS ♥️
 
 #### The lazy way
 
-[![Deploy me 🥺](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/EDM115/unzip-bot)  
+[![Deploy me 🥺](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Nirzak/unz-bot)  
 (if you're in a fork, make sure to replace the template URL with your repo's one)
 
 ---
@@ -82,7 +78,7 @@ Deploying is easy 🥰 You can deploy this bot in Heroku or in a VPS ♥️
 + Install [Docker](https://www.docker.com/) then restart your computer
 
 ```bash
-git clone https://github.com/EDM115/unzip-bot.git
+git clone https://github.com/Nirzak/unz-bot.git
 cd unzip-bot
 nano .env
 docker build -t edm115/unzip-bot .
@@ -96,7 +92,7 @@ docker build -t edm115/unzip-bot .
 #### The legacy way
 
 ```bash
-git clone https://github.com/EDM115/unzip-bot.git
+git clone https://github.com/Nirzak/unz-bot.git
 cd unzip-bot
 pip3 install -r requirements.txt
 ```
@@ -130,7 +126,7 @@ chmod +x start.sh && ./start.sh
 + Go in the repo's folder
 
 ```bash
-docker build --no-cache -t edm115/unzip-bot .
+docker build --no-cache -t Nirzak/unz-bot .
 docker run -d -v downloaded-volume:/app/Downloaded -v thumbnails-volume:/app/Thumbnails --env-file ./.env --network host --name unzip-bot-container edm115/unzip-bot
 docker start unzip-bot-container
 # if you want to check something
@@ -143,10 +139,10 @@ docker stop unzip-bot-container
 + If you wanna publish :
 
 ```bash
-docker tag edm115/unzip-bot edm115/unzip-bot:latest
+docker tag edm115/unzip-bot Nirzak/unz-bot:latest
 ```
 
-*(replace `edm115` with your docker hub username, `unzip-bot` with the repo's name and `latest` whith whatever you want)*
+*(replace `Nirzak` with your docker hub username, `unz-bot` with the repo's name and `latest` whith whatever you want)*
 
 ```bash
 docker login
@@ -157,21 +153,3 @@ docker login
 ```bash
 docker push edm115/unzip-bot:latest
 ```
-
-*(same, replace accordingly)*
-
-## Found a bug 🐞
-
-If you found a bug in this bot please open an [issue](https://github.com/EDM115/unzip-bot/issues) or report it on Telegram : [@EDM115](https://t.me/EDM115)  
-Same if you have any feature request 😉
-
-## License & Copyright 👮‍♀️
-
-```
-Copyright (c) 2022 EDM115
-
-This Unarchiver Bot repository is licensed under MIT License (https://github.com/EDM115/unzip-bot/blob/master/LICENSE)
-Enjoy copying and modifying, but always mention me
-```
-
-• Inspired by Itz-fork/Nexa's work, but with additional features and bug fixes. This is a maintained repo of the [original](https://github.com/Itz-fork/Unzipper-Bot)

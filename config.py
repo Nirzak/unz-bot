@@ -19,7 +19,7 @@ class Config:
     TG_MAX_SIZE = 2097152000
     MAX_MESSAGE_LENGTH = 4096
     # Default chunk size (0.005 MB → 1024*6) Increase if you need faster downloads
-    CHUNK_SIZE = 1024 * 1024 * 10  # 10 MB
+    CHUNK_SIZE = 1024 * 1024 * 30  # 10 MB
     BOT_THUMB = f"{os.path.dirname(__file__)}/bot_thumb.jpg"
     MAX_CONCURRENT_TASKS = 75
     MAX_TASK_DURATION_EXTRACT = 120 * 60  # 2 hours (in seconds)

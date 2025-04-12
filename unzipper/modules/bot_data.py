@@ -99,8 +99,6 @@ This may take a while, go grab a coffee ☕️
     PROGRESS_MSG = """
 {}
 {}
-
-**Powered by @EDM115bots**
     """
 
     PROCESSING = "**Processing…**"
@@ -121,7 +119,7 @@ This may take a while, go grab a coffee ☕️
 
     LOG_CHECKED = "Log channel checked"
 
-    BOT_RUNNING = "Bot is running now ! Join @EDM115bots"
+    BOT_RUNNING = "Bot is running now!"
 
     WRONG_LOG = """
 Error : the provided **LOGS_CHANNEL** (`{}`) is incorrect
@@ -156,8 +154,6 @@ Select the extraction mode for that merged file 👀
 
     EXT_CAPTION = """
 `{}`
-
-Successfully extracted by @unzip_edm115bot 🥰
     """
 
     REPORT_TEXT = """
@@ -189,8 +185,6 @@ have been saved from the URL
 
 
 **⚠ IN ALL CASES ⚠**, please send **/clean**, else you can't send any other task 🙂🔫
-
-Please report this at @EDM115_chat if you think this is a serious error
     """
 
     HOW_MANY_UPLOADED = "`{}` file(s) have been extracted from that archive"
@@ -234,9 +228,6 @@ Hi **{}** 👋, I'm **Unarchiver bot** 🥰
 
 I can extract any archive, with password or not, splitted, …
 Send **/commands** to learn more
-
-**Made with ❤️ by @EDM115bots**
-**/donate** if you can 🥺
     """
 
     HELP_TXT = """
@@ -254,27 +245,14 @@ Send **/commands** to learn more
     **1.** If your archive is password protected select `🔐` button
     **2.** Please don't send corrupted files ! If you sent one by mistake just send **/clean**
     **3.** If your archive have +95 files in it then bot can't show all of extracted files to select from (yet). So in that case if you can't see your file in the buttons just click on `Upload all 📤` button. It will send all extracted files to you !
-
-
-**• Got an error ?**
-    Visit edm115.dev/unzip#help
-
-
-**• I wanna have help 🥺**
-
-    PM me at **@EDM115** or join the chat **@EDM115_chat**
     """
 
     ABOUT_TXT = """
-**About Unarchiver bot [v6.3.5]**
+**About Unz bot [v6.3.5]**
 
 • **Language :** [Python 3.12.4](https://www.python.org/)
 • **Framework :** [Pyrogram 2.0.106](https://pyrogram.org/)
-• **Source code :** [EDM115/unzip-bot](https://github.com/EDM115/unzip-bot)
-• **Developer :** [EDM115](https://github.com/EDM115)
-
-**[Rate me ⭐](https://t.me/BotsArchive/2705)**
-Made with ❤️ by **@EDM115bots**
+• **Source code :** [Nirzak/unz-bot](https://github.com/Nirzak/unz-bot)
     """
 
     DONATE_TEXT = """
@@ -286,15 +264,10 @@ So if you can, donate :)
 It helps out a ton, covers the costs (hosting, updating, … 👨‍💻)
 
 --How ?--
-• **[Paypal](https://www.paypal.me/8EDM115)**
-• **[GitHub Sponsors](https://github.com/sponsors/EDM115)**
-• **[Directly in Telegram](https://t.me/EDM115bots/698)**
-• **[BuyMeACoffee](https://www.buymeacoffee.com/edm115)**
+• **[BuyMeACoffee](https://www.buymeacoffee.com/Nirzak)**
 
 Thanks for your contribution 😊
 
---Side note :--
-Donation doesn't count as a VIP subscription. Check **/vip** for more info
     """
 
     VIP_INFO = """
@@ -456,8 +429,6 @@ Do you really want to delete your thumbnail ?
 **Error happened 😕**
 
 `{}`
-
-Please report this at @EDM115_chat if you think this is a serious error
     """
 
     CANCELLED_TXT = "**{} ✅**"
